@@ -1,0 +1,277 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (01),Chrome 134.0.6998.89,,,13-03-2025 21:19:28,13-03-2025 21:23:36,4m - 7.749s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:19:28,13-03-2025 21:19:44,15.539s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:19:29,13-03-2025 21:19:34,5.087s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:19:34,13-03-2025 21:19:36,1.873s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:19:36,13-03-2025 21:19:36,0.452s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:19:36,13-03-2025 21:19:37,0.799s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:19:37,13-03-2025 21:19:37,0.588s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:19:37,13-03-2025 21:19:38,0.614s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:19:38,13-03-2025 21:19:38,0.340s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:19:38,13-03-2025 21:19:44,5.235s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:19:44,13-03-2025 21:19:54,10.335s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:19:44,13-03-2025 21:19:45,1.754s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:19:45,13-03-2025 21:19:47,2.022s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:19:47,13-03-2025 21:19:48,0.472s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:19:48,13-03-2025 21:19:49,0.709s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:19:49,13-03-2025 21:19:49,0.554s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:19:49,13-03-2025 21:19:50,0.578s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:19:50,13-03-2025 21:19:50,0.309s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:19:50,13-03-2025 21:19:54,3.891s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:19:54,13-03-2025 21:20:04,9.603s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:19:54,13-03-2025 21:19:55,1.384s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:19:55,13-03-2025 21:19:57,1.396s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:19:57,13-03-2025 21:19:57,0.459s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:19:57,13-03-2025 21:19:58,0.723s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:19:58,13-03-2025 21:19:59,0.566s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:19:59,13-03-2025 21:19:59,0.547s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:19:59,13-03-2025 21:19:59,0.303s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:19:59,13-03-2025 21:20:04,4.177s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:20:04,13-03-2025 21:20:14,10.660s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:20:04,13-03-2025 21:20:05,1.139s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:20:05,13-03-2025 21:20:06,1.495s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:20:06,13-03-2025 21:20:07,0.465s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:07,13-03-2025 21:20:08,0.722s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:08,13-03-2025 21:20:08,0.566s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:20:08,13-03-2025 21:20:09,0.538s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:20:09,13-03-2025 21:20:09,0.302s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:20:09,13-03-2025 21:20:14,5.359s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:20:14,13-03-2025 21:20:24,9.834s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:20:14,13-03-2025 21:20:16,1.742s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:20:16,13-03-2025 21:20:17,1.385s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:20:17,13-03-2025 21:20:18,0.429s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:18,13-03-2025 21:20:19,0.664s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:19,13-03-2025 21:20:19,0.559s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:20:19,13-03-2025 21:20:20,0.534s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:20:20,13-03-2025 21:20:20,0.299s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:20:20,13-03-2025 21:20:24,4.198s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:20:24,13-03-2025 21:20:34,9.399s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:20:24,13-03-2025 21:20:26,1.598s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:20:26,13-03-2025 21:20:27,1.150s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:20:27,13-03-2025 21:20:27,0.444s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:27,13-03-2025 21:20:28,0.669s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:28,13-03-2025 21:20:29,0.561s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:20:29,13-03-2025 21:20:29,0.538s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:20:29,13-03-2025 21:20:29,0.299s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:20:29,13-03-2025 21:20:34,4.123s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:20:34,13-03-2025 21:20:43,9.710s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:20:34,13-03-2025 21:20:35,1.589s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:20:35,13-03-2025 21:20:37,1.387s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:20:37,13-03-2025 21:20:37,0.409s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:37,13-03-2025 21:20:38,0.748s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:38,13-03-2025 21:20:38,0.612s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:20:38,13-03-2025 21:20:39,0.573s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:20:39,13-03-2025 21:20:39,0.323s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:20:39,13-03-2025 21:20:43,3.997s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:20:43,13-03-2025 21:20:53,9.948s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:20:43,13-03-2025 21:20:44,1.138s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:20:44,13-03-2025 21:20:46,1.408s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:20:46,13-03-2025 21:20:46,0.489s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:46,13-03-2025 21:20:48,1.285s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:48,13-03-2025 21:20:48,0.571s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:20:48,13-03-2025 21:20:49,0.545s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:20:49,13-03-2025 21:20:49,0.306s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:20:49,13-03-2025 21:20:53,4.171s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:20:53,13-03-2025 21:21:02,9.234s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:20:53,13-03-2025 21:20:55,1.822s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:20:55,13-03-2025 21:20:56,0.969s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:20:56,13-03-2025 21:20:56,0.469s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:56,13-03-2025 21:20:57,0.736s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:20:57,13-03-2025 21:20:58,0.553s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:20:58,13-03-2025 21:20:58,0.534s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:20:58,13-03-2025 21:20:59,0.295s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:20:59,13-03-2025 21:21:02,3.828s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:21:02,13-03-2025 21:21:12,9.340s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:21:02,13-03-2025 21:21:04,1.459s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:21:04,13-03-2025 21:21:05,1.202s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:21:05,13-03-2025 21:21:06,0.495s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:06,13-03-2025 21:21:06,0.810s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:06,13-03-2025 21:21:07,0.577s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:21:07,13-03-2025 21:21:08,0.529s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:21:08,13-03-2025 21:21:08,0.293s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:21:08,13-03-2025 21:21:12,3.943s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:21:12,13-03-2025 21:21:21,9.162s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:21:12,13-03-2025 21:21:13,1.156s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:21:13,13-03-2025 21:21:14,1.336s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:21:14,13-03-2025 21:21:15,0.413s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:15,13-03-2025 21:21:15,0.699s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:15,13-03-2025 21:21:16,0.549s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:21:16,13-03-2025 21:21:17,0.550s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:21:17,13-03-2025 21:21:17,0.297s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:21:17,13-03-2025 21:21:21,4.127s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:21:21,13-03-2025 21:21:30,9.498s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:21:21,13-03-2025 21:21:22,1.247s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:21:22,13-03-2025 21:21:24,1.595s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:21:24,13-03-2025 21:21:24,0.411s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:24,13-03-2025 21:21:25,0.643s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:25,13-03-2025 21:21:25,0.556s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:21:25,13-03-2025 21:21:26,0.557s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:21:26,13-03-2025 21:21:26,0.308s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:21:26,13-03-2025 21:21:30,4.157s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:21:30,13-03-2025 21:21:40,9.363s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:21:30,13-03-2025 21:21:32,1.210s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:21:32,13-03-2025 21:21:33,1.719s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:21:33,13-03-2025 21:21:34,0.455s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:34,13-03-2025 21:21:35,0.675s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:35,13-03-2025 21:21:35,0.548s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:21:35,13-03-2025 21:21:36,0.539s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:21:36,13-03-2025 21:21:36,0.292s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:21:36,13-03-2025 21:21:40,3.893s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:21:40,13-03-2025 21:21:49,9.582s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:21:40,13-03-2025 21:21:41,1.391s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:21:41,13-03-2025 21:21:43,1.300s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:21:43,13-03-2025 21:21:43,0.392s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:43,13-03-2025 21:21:44,0.701s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:44,13-03-2025 21:21:44,0.605s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:21:44,13-03-2025 21:21:45,0.545s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:21:45,13-03-2025 21:21:45,0.301s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:21:45,13-03-2025 21:21:49,4.319s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:21:49,13-03-2025 21:22:00,10.351s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:21:49,13-03-2025 21:21:51,1.890s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:21:51,13-03-2025 21:21:53,1.713s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:21:53,13-03-2025 21:21:53,0.413s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:53,13-03-2025 21:21:54,0.794s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:21:54,13-03-2025 21:21:55,0.624s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:21:55,13-03-2025 21:21:55,0.548s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:21:55,13-03-2025 21:21:56,0.310s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:21:56,13-03-2025 21:22:00,4.044s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:00,13-03-2025 21:22:10,9.979s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:00,13-03-2025 21:22:02,2.082s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:02,13-03-2025 21:22:03,1.125s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:22:03,13-03-2025 21:22:03,0.447s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:03,13-03-2025 21:22:04,0.701s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:04,13-03-2025 21:22:05,0.552s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:22:05,13-03-2025 21:22:05,0.530s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:22:05,13-03-2025 21:22:06,0.291s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:22:06,13-03-2025 21:22:10,4.208s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:10,13-03-2025 21:22:19,9.643s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:10,13-03-2025 21:22:11,1.695s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:11,13-03-2025 21:22:13,1.254s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:22:13,13-03-2025 21:22:13,0.432s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:13,13-03-2025 21:22:14,0.649s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:14,13-03-2025 21:22:14,0.570s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:22:14,13-03-2025 21:22:15,0.531s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:22:15,13-03-2025 21:22:15,0.293s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:22:15,13-03-2025 21:22:19,4.206s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:19,13-03-2025 21:22:29,9.965s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:19,13-03-2025 21:22:21,1.434s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:21,13-03-2025 21:22:22,1.200s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:22:22,13-03-2025 21:22:23,0.453s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:23,13-03-2025 21:22:23,0.665s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:23,13-03-2025 21:22:24,0.548s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:22:24,13-03-2025 21:22:24,0.527s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:22:24,13-03-2025 21:22:25,0.291s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:22:25,13-03-2025 21:22:29,4.825s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:29,13-03-2025 21:22:39,9.554s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:29,13-03-2025 21:22:31,1.427s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:31,13-03-2025 21:22:32,1.018s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:22:32,13-03-2025 21:22:32,0.451s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:32,13-03-2025 21:22:33,0.637s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:33,13-03-2025 21:22:34,0.587s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:22:34,13-03-2025 21:22:34,0.564s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:22:34,13-03-2025 21:22:34,0.311s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:22:34,13-03-2025 21:22:39,4.537s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:39,13-03-2025 21:22:48,9.267s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:39,13-03-2025 21:22:41,1.728s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:41,13-03-2025 21:22:42,1.147s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:22:42,13-03-2025 21:22:42,0.457s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:42,13-03-2025 21:22:43,0.695s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:43,13-03-2025 21:22:44,0.552s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:22:44,13-03-2025 21:22:44,0.532s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:22:44,13-03-2025 21:22:44,0.293s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:22:44,13-03-2025 21:22:48,3.822s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:48,13-03-2025 21:22:58,9.917s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:48,13-03-2025 21:22:50,1.855s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:50,13-03-2025 21:22:51,1.139s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:22:51,13-03-2025 21:22:52,0.431s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:52,13-03-2025 21:22:52,0.732s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:22:52,13-03-2025 21:22:53,0.696s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:22:53,13-03-2025 21:22:54,0.561s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:22:54,13-03-2025 21:22:54,0.365s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:22:54,13-03-2025 21:22:58,4.043s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:22:58,13-03-2025 21:23:07,9.156s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:22:58,13-03-2025 21:22:59,0.993s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:22:59,13-03-2025 21:23:01,1.474s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:23:01,13-03-2025 21:23:01,0.426s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:01,13-03-2025 21:23:02,0.710s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:02,13-03-2025 21:23:02,0.556s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:23:02,13-03-2025 21:23:03,0.540s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:23:03,13-03-2025 21:23:03,0.299s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:23:03,13-03-2025 21:23:07,4.128s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:23:07,13-03-2025 21:23:17,9.372s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:23:07,13-03-2025 21:23:09,1.479s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:23:09,13-03-2025 21:23:10,1.220s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:23:10,13-03-2025 21:23:10,0.412s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:10,13-03-2025 21:23:11,0.639s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:11,13-03-2025 21:23:12,0.616s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:23:12,13-03-2025 21:23:12,0.537s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:23:12,13-03-2025 21:23:13,0.396s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:23:13,13-03-2025 21:23:17,4.062s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:23:17,13-03-2025 21:23:26,9.251s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:23:17,13-03-2025 21:23:18,0.955s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:23:18,13-03-2025 21:23:19,1.675s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:23:19,13-03-2025 21:23:20,0.503s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:20,13-03-2025 21:23:21,0.654s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:21,13-03-2025 21:23:21,0.568s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:23:21,13-03-2025 21:23:22,0.555s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:23:22,13-03-2025 21:23:22,0.293s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:23:22,13-03-2025 21:23:26,4.030s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Login/Login,Chrome 134.0.6998.89,,,13-03-2025 21:23:26,13-03-2025 21:23:36,9.813s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""MULTIE1"",""(Default) passw..."":""Johndev1!!"",""(Default) userI..."":""Admin1"",""(Default) url"":""https://balebisnis.btn.co.id/login""}",,,,,,,
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 21:23:26,13-03-2025 21:23:27,1.443s,PASSED
+navigateToUrl(url),Chrome 134.0.6998.89,,,13-03-2025 21:23:27,13-03-2025 21:23:29,1.670s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 21:23:29,13-03-2025 21:23:30,0.461s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_corpId""), corpId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:30,13-03-2025 21:23:30,0.670s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_userId""), userId)",Chrome 134.0.6998.89,,,13-03-2025 21:23:30,13-03-2025 21:23:31,0.548s,PASSED
+"setText(findTestObject(""IBB Nasabah/Login/fld_password""), password)",Chrome 134.0.6998.89,,,13-03-2025 21:23:31,13-03-2025 21:23:31,0.535s,PASSED
+"click(findTestObject(""IBB Nasabah/Login/btn_login""))",Chrome 134.0.6998.89,,,13-03-2025 21:23:31,13-03-2025 21:23:32,0.328s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 21:23:32,13-03-2025 21:23:36,4.128s,PASSED

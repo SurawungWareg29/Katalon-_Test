@@ -6,22 +6,22 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'KEVIN01'</initValue>
+      <initValue>'MULTIE1'</initValue>
       <name>corpId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'KEVIN02'</initValue>
+      <initValue>'Admin1'</initValue>
       <name>userId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Johndev1-,-'</initValue>
+      <initValue>'Johndev1!!'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://ibbisnis-sit.btn.co.id/login'</initValue>
+      <initValue>'https://balebisnis.btn.co.id/login'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
