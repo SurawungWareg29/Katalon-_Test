@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword as CallTestCaseKeyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
@@ -18,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(url)
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('IBB Nasabah/Login/fld_corpId'), corpId)
-
-WebUI.setText(findTestObject('IBB Nasabah/Login/fld_userId'), userId)
-
-WebUI.setText(findTestObject('IBB Nasabah/Login/fld_password'), password)
-
-WebUI.click(findTestObject('IBB Nasabah/Login/btn_login'))
-
-WebUI.callTestCase(findTestCase('Nasabah/Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
