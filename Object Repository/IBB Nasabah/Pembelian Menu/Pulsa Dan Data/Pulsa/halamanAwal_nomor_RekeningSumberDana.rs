@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>halamanAwal_nomor_RekeningSumberDana</name>
+   <tag></tag>
+   <elementGuidId>03fe9b02-7623-4815-8c06-ae36592d649f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/main/div/div/div/form/div[3]/div[1]/div/div[1]/div/button/div/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.MuiTypography-root.MuiTypography-body2.a-text-style.400.css-17h67kb</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>78b2c41d-3e2c-48f9-8355-0c1a2235361b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style 400 css-17h67kb</value>
+      <webElementGuid>98203d94-cf44-4bde-818f-929a482e8e6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1401 8800 3208 6</value>
+      <webElementGuid>e6266873-86ea-4545-bede-5209b05bcd1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/form[1]/div[@class=&quot;css-wx73b6&quot;]/div[@class=&quot;css-156y9hn&quot;]/div[@class=&quot;scrollbar css-1x79ohz&quot;]/div[@class=&quot;css-1c2u0l7&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-wbdyj&quot;]/button[@class=&quot;MuiButtonBase-root MuiCardActionArea-root css-1m5f78l&quot;]/div[@class=&quot;MuiCardContent-root css-dbqrwf&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style 400 css-17h67kb&quot;]</value>
+      <webElementGuid>d034d306-d3e7-4139-bb85-c340c8c569d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/form/div[3]/div/div/div/div/button/div/p[2]</value>
+      <webElementGuid>a045d08e-c07c-4081-a4e4-b56430ee5394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data'])[1]/following::p[3]</value>
+      <webElementGuid>dcfa4118-41a9-4369-a8b7-7ef766dbfea9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pulsa'])[1]/following::p[3]</value>
+      <webElementGuid>da02340f-3357-4b5a-9d84-89cb127dc136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Pembelian'])[2]/preceding::p[23]</value>
+      <webElementGuid>cc3c5601-b57c-4890-b21e-78185c9204c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Terakhir'])[1]/preceding::p[23]</value>
+      <webElementGuid>3a39b116-4261-41e5-bb42-19b4c659509d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1401 8800 3208 6']/parent::*</value>
+      <webElementGuid>2d9f8005-1674-435c-9319-219972e8b9c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>bb8f7829-4302-46b4-849c-1712d4e155c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1401 8800 3208 6' or . = '1401 8800 3208 6')]</value>
+      <webElementGuid>7524177a-c43a-48dd-b121-943ba30b10bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

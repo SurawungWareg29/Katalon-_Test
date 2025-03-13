@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>halamanKonfirmasi_nominalPulsa</name>
+   <tag></tag>
+   <elementGuidId>4d22e52f-2350-4aaf-a993-4334d0c7e9b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div[2]/div/div[2]/div/div[4]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6c42b73f-eb3f-4cef-9cb6-57752f0160e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style 400 css-tfmdtw</value>
+      <webElementGuid>86e84415-b35f-48b9-b1c6-04310fcd5bdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp 25.000,00</value>
+      <webElementGuid>3add0810-d6d4-405f-bb92-667dad1d2388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-wbvew4&quot;]/div[2]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-1ruxp1v&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1b2apei&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style 400 css-tfmdtw&quot;]</value>
+      <webElementGuid>2580fc68-7c7a-4bc0-9f08-d2cecfb9a4c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div[2]/div/div[2]/div/div[4]/p[2]</value>
+      <webElementGuid>93be32d3-0140-41d3-9bfe-619e705ea81b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/following::p[14]</value>
+      <webElementGuid>17084348-3ef8-4331-b5f0-1a65209d077a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan seluruh informasi di atas sudah benar, sebelum Anda melanjutkan proses transaksi'])[1]/preceding::p[9]</value>
+      <webElementGuid>406a48b7-8258-4d5f-a780-454e97727f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rp 25.000,00']/parent::*</value>
+      <webElementGuid>3a171980-4a43-41cd-ac20-96e635140768</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/p[2]</value>
+      <webElementGuid>95e065cd-9c7e-487c-90eb-1dbf2956df89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Rp 25.000,00' or . = 'Rp 25.000,00')]</value>
+      <webElementGuid>c11460a4-081a-4343-ae3a-61fe86b456c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

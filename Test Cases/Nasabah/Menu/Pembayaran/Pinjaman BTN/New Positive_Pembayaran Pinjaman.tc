@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Positive_Pembayaran Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5cf50ee-0236-41a0-a8b1-9d86aa263427</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="726.764" tests="11" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="11" failures="0" errors="0" time="726.764" skipped="0" timestamp="13-03-2025T18:46:01" hostname="pebinurhakim - pebis-air.mshome.net" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/pebinurhakim/Downloads/internet-banking-business-nasabah/Reports/20250313_184553/New Test Suite/20250313_184554"/>
+         <property name="logFiles" value="/Users/pebinurhakim/Downloads/internet-banking-business-nasabah/Reports/20250313_184553/New Test Suite/20250313_184554/execution0.log"/>
+         <property name="attachments" value="/Users/pebinurhakim/Downloads/internet-banking-business-nasabah/Reports/20250313_184553/New Test Suite/20250313_184554/1741866502009.png"/>
+         <property name="hostName" value="pebinurhakim - pebis-air.mshome.net"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.89"/>
+         <property name="hostAddress" value="192.168.137.101"/>
+         <property name="sessionId" value="bc474b8eed3f4b9c0152fc8769e01be9"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="52.799" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:48:22 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:48:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:48:22 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:48:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:48:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:48:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:48:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:48:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:48:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:48:36 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:48:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:48:37 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:48:37 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:48:38 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:48:38 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:48:39 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:48:39 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:48:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:48:39 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:48:51 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:48:58 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:49:04 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:49:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:49:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:49:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:49:06 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:49:06 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:49:07 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:49:07 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:49:07 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:49:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:49:08 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:49:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:49:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:49:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:49:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:49:14 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:49:14 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:49:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="46.121" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:49:15 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:49:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:49:15 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:49:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:49:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:49:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:49:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:49:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:49:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:49:25 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:49:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:49:26 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:49:26 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:49:26 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:49:26 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:49:27 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:49:27 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:49:27 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:49:27 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:49:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:49:28 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:49:37 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:49:44 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:49:50 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:49:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:49:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:49:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:49:51 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:49:52 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:49:52 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:49:53 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:49:53 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:49:53 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:49:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:49:54 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:49:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:49:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:50:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:50:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:50:00 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:50:00 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:50:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="47.44" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:50:01 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:50:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:50:01 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:50:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:50:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:50:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:50:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:50:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:50:03 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:50:12 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:50:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:50:12 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:50:12 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:50:13 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:50:13 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:50:14 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:50:14 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:50:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:50:14 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:50:24 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:50:31 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:50:37 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:50:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:50:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:50:38 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:50:39 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:50:39 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:50:40 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:50:40 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:50:41 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:50:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:50:42 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:50:42 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:50:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:50:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:50:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:50:47 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:50:47 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:50:48 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:50:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="48.433" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:50:48 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:50:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:50:48 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:50:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:50:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:50:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:50:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:50:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:50:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:51:00 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:51:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:51:00 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:51:01 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:51:02 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:51:02 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:51:02 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:51:02 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:51:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:51:03 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:51:12 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:51:18 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:51:25 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:51:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:51:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:51:27 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:51:28 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:51:28 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:51:29 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:51:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:51:30 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:51:30 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:51:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:51:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:51:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:51:36 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:51:36 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:51:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="106.452" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:51:37 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:51:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:51:37 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:51:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:51:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:51:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:51:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:51:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:51:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:52:47 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:52:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:52:47 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:52:47 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:52:48 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:52:49 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:52:49 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:52:49 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:52:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:52:49 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:52:59 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:53:06 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:53:12 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:53:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:53:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:53:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:53:14 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:53:14 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:53:15 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:53:15 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:53:16 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:53:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:53:17 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:53:17 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:53:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:53:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:53:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:53:22 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:53:23 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:53:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="47.52" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:53:23 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:53:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:53:23 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:53:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:53:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:53:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:53:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:53:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:53:25 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:53:36 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:53:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:53:36 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:53:36 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:53:37 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:53:37 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:53:37 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:53:37 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:53:38 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:53:38 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:53:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:53:38 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:53:48 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:53:54 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:54:00 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:54:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:54:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:54:02 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:54:02 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:54:03 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:54:03 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:54:04 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:54:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:54:05 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:54:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:54:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:54:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:54:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:54:10 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:54:10 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:54:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="46.274" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:54:11 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:54:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:54:11 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:54:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:54:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:54:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:54:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:54:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:54:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:54:22 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:54:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:54:22 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:54:23 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:54:23 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:54:24 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:54:24 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:54:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:54:24 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:54:34 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:54:40 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:54:46 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:54:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:54:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:54:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:54:47 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:54:48 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:54:49 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:54:49 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:54:50 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:54:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:54:51 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:54:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:54:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:54:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:54:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:54:56 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:54:56 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:54:56 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:54:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="46.083" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:54:57 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:54:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:54:57 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:54:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:54:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:54:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:54:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:54:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:54:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:55:08 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:55:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:55:08 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:55:08 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:55:09 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:55:09 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:55:09 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:55:09 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:55:10 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:55:10 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:55:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:55:10 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:55:20 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:55:26 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:55:32 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:55:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:55:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:55:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:55:34 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:55:35 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:55:35 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:55:36 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:55:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:55:37 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:55:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:55:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:55:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:55:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:55:42 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:55:43 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:55:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="50.149" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:55:43 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:55:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:55:43 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:55:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:55:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:55:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:55:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:55:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:55:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:55:53 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:55:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:55:54 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:55:54 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:55:55 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:55:55 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:55:56 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:55:56 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:55:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:55:56 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:56:06 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:56:16 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:56:23 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:56:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:56:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:56:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:56:25 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:56:25 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:56:26 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:56:26 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:56:26 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:56:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:56:27 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:56:27 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:56:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:56:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:56:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:56:32 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:56:32 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:56:33 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:56:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="45.812" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:56:33 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:56:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:56:33 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:56:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:56:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:56:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:56:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:56:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:56:35 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:56:44 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:56:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:56:44 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:56:45 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:56:46 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:56:46 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:56:46 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:56:46 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:56:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:56:46 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:56:56 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:57:02 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:57:08 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:57:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:57:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:57:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:57:09 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:57:10 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:57:11 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:57:11 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:57:12 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:57:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:57:13 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:57:13 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:57:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:57:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:57:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:57:18 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:57:18 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:57:19 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:57:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" time="49.02" classname="Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) corpI...":"destrioto2","(Default) passw...":"Johndev2!","(Default) userI...":"destrioto2","(Default) url":"https://ibbisnis-uat.btn.co.id/login"}]]></property>
+         </properties>
+         <system-out><![CDATA[13-03-2025T18:57:19 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth
+
+13-03-2025T18:57:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Login/Login"), ["corpId":corpId, "userId":userId, "password":password, "url":url], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:57:19 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Login/Login: Test Cases/Nasabah/Login/Login
+
+13-03-2025T18:57:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-03-2025T18:57:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-03-2025T18:57:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-03-2025T18:57:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-03-2025T18:57:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-03-2025T18:57:21 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:57:30 - [MESSAGE][PASSED] - Navigate to 'http://ibbisnis-sit.btn.co.id/login' successfully
+
+13-03-2025T18:57:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-03-2025T18:57:31 - [MESSAGE][PASSED] - Current window maximized
+
+13-03-2025T18:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_corpId"), corpId): Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:57:31 - [MESSAGE][PASSED] - Text 'KEVIN01' is set on object 'Object Repository/IBB Nasabah/Login/fld_corpId'
+
+13-03-2025T18:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_userId"), userId): Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:57:32 - [MESSAGE][PASSED] - Text 'KEVIN02' is set on object 'Object Repository/IBB Nasabah/Login/fld_userId'
+
+13-03-2025T18:57:32 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Login/fld_password"), password): Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:57:32 - [MESSAGE][PASSED] - Text 'Johndev1-,-' is set on object 'Object Repository/IBB Nasabah/Login/fld_password'
+
+13-03-2025T18:57:32 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Login/btn_login")): Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Login/btn_login' is clicked on
+
+13-03-2025T18:57:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Login/Login' successfully
+
+13-03-2025T18:57:33 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/btn_transfer")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' is clicked on
+
+13-03-2025T18:57:45 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana' is clicked on
+
+13-03-2025T18:57:51 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana' is clicked on
+
+13-03-2025T18:57:58 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan"), STOP_ON_FAILURE): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan' is clicked on
+
+13-03-2025T18:57:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), 0): Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:57:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '120'
+
+13-03-2025T18:57:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi' successfully
+
+13-03-2025T18:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi"), "100000"): Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:57:59 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi'
+
+13-03-2025T18:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita"), "test 1-1 transfer"): Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:58:00 - [MESSAGE][PASSED] - Text 'test 1-1 transfer' is set on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita'
+
+13-03-2025T18:58:00 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya' is clicked on
+
+13-03-2025T18:58:01 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi")): Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi' is clicked on
+
+13-03-2025T18:58:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Nasabah/Logout/Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully
+
+13-03-2025T18:58:02 - [TEST_CASE][PASSED] - Test Cases/Nasabah/Logout/Logout: Test Cases/Nasabah/Logout/Logout
+
+13-03-2025T18:58:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("IBB Nasabah/Payroll/Logout/icn_profile")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/icn_profile' is hovered
+
+13-03-2025T18:58:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-03-2025T18:58:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-03-2025T18:58:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout"), 15): Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clickable
+
+13-03-2025T18:58:07 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_logout")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_logout' is clicked on
+
+13-03-2025T18:58:08 - [TEST_STEP][PASSED] - click(findTestObject("IBB Nasabah/Payroll/Logout/btn_yes")): Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/IBB Nasabah/Payroll/Logout/btn_yes' is clicked on
+
+13-03-2025T18:58:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Nasabah/Logout/Logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-03-2025T18:46:01 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Pindah Dana One to One Single Auth.run(Pindah Dana One to One Single Auth:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741866354956.run(TempTestSuite1741866354956.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' located by '//*[@id="root"]/div/div/nav/div/div/div[2]/div[1]/ul/div[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[13-03-2025T18:46:01 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Pindah Dana One to One Single Auth.run(Pindah Dana One to One Single Auth:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1741866354956.run(TempTestSuite1741866354956.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IBB Nasabah/Dashboard Menu/Transfer/btn_transfer' located by '//*[@id="root"]/div/div/nav/div/div/div[2]/div[1]/ul/div[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

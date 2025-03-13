@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reprint</description>
+   <name>TC_Reprint Advice Pajak</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e87f009-38d7-4ebc-a6c9-f40e454adb45</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,156 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 134.0.6998.89,,,13-03-2025 18:46:01,13-03-2025 18:58:08,12m - 6.764s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:48:22,13-03-2025 18:49:15,52.799s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:48:22,13-03-2025 18:48:39,17.044s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:48:39,13-03-2025 18:48:51,12.168s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:48:51,13-03-2025 18:48:58,6.691s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:48:58,13-03-2025 18:49:04,6.201s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:49:04,13-03-2025 18:49:05,0.531s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:49:05,13-03-2025 18:49:05,0.455s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:49:05,13-03-2025 18:49:06,0.835s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:49:06,13-03-2025 18:49:07,0.988s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:07,13-03-2025 18:49:07,0.515s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:07,13-03-2025 18:49:08,0.939s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:49:08,13-03-2025 18:49:15,6.386s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:49:15,13-03-2025 18:50:01,46.121s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:49:15,13-03-2025 18:49:28,12.968s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:28,13-03-2025 18:49:37,9.403s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:37,13-03-2025 18:49:44,6.513s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:44,13-03-2025 18:49:50,6.325s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:49:50,13-03-2025 18:49:50,0.532s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:49:50,13-03-2025 18:49:51,0.457s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:49:51,13-03-2025 18:49:52,0.838s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:49:52,13-03-2025 18:49:53,0.972s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:53,13-03-2025 18:49:53,0.535s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:49:53,13-03-2025 18:49:54,0.980s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:49:54,13-03-2025 18:50:01,6.568s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:50:01,13-03-2025 18:50:48,47.440s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:50:01,13-03-2025 18:50:14,13.299s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:50:14,13-03-2025 18:50:24,10.044s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:50:24,13-03-2025 18:50:31,6.648s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:50:31,13-03-2025 18:50:37,6.498s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:50:37,13-03-2025 18:50:38,0.515s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:50:38,13-03-2025 18:50:38,0.454s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:50:38,13-03-2025 18:50:39,0.888s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:50:39,13-03-2025 18:50:40,1.033s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:50:40,13-03-2025 18:50:41,0.544s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:50:41,13-03-2025 18:50:42,0.987s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:50:42,13-03-2025 18:50:48,6.457s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:50:48,13-03-2025 18:51:37,48.433s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:50:48,13-03-2025 18:51:03,14.212s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:51:03,13-03-2025 18:51:12,9.462s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:51:12,13-03-2025 18:51:18,6.237s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:51:18,13-03-2025 18:51:25,6.762s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:51:25,13-03-2025 18:51:26,0.506s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:51:26,13-03-2025 18:51:26,0.453s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:51:26,13-03-2025 18:51:27,0.845s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:51:27,13-03-2025 18:51:28,1.099s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:51:28,13-03-2025 18:51:29,0.570s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:51:29,13-03-2025 18:51:30,1.350s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:51:30,13-03-2025 18:51:37,6.857s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:51:37,13-03-2025 18:53:23,1m - 46.452s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:51:37,13-03-2025 18:52:49,1m - 12.654s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:52:49,13-03-2025 18:52:59,9.811s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:52:59,13-03-2025 18:53:06,6.689s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:53:06,13-03-2025 18:53:12,6.175s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:53:12,13-03-2025 18:53:13,0.573s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:53:13,13-03-2025 18:53:13,0.459s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:53:13,13-03-2025 18:53:14,0.876s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:53:14,13-03-2025 18:53:15,1.026s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:53:15,13-03-2025 18:53:16,0.514s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:53:16,13-03-2025 18:53:17,1.177s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:53:17,13-03-2025 18:53:23,6.424s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:53:23,13-03-2025 18:54:11,47.520s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:53:23,13-03-2025 18:53:38,14.902s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:53:38,13-03-2025 18:53:48,9.709s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:53:48,13-03-2025 18:53:54,6.073s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:53:54,13-03-2025 18:54:00,6.344s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:54:00,13-03-2025 18:54:01,0.517s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:54:01,13-03-2025 18:54:01,0.446s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:54:01,13-03-2025 18:54:02,0.818s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:54:02,13-03-2025 18:54:03,0.980s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:03,13-03-2025 18:54:04,0.524s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:04,13-03-2025 18:54:05,1.034s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:54:05,13-03-2025 18:54:11,6.140s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:54:11,13-03-2025 18:54:57,46.274s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:54:11,13-03-2025 18:54:24,13.458s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:24,13-03-2025 18:54:34,9.664s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:34,13-03-2025 18:54:40,6.140s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:40,13-03-2025 18:54:46,6.456s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:54:46,13-03-2025 18:54:47,0.355s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:54:47,13-03-2025 18:54:47,0.440s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:54:47,13-03-2025 18:54:48,0.840s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:54:48,13-03-2025 18:54:49,0.981s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:49,13-03-2025 18:54:50,0.544s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:54:50,13-03-2025 18:54:51,1.045s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:54:51,13-03-2025 18:54:57,6.333s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:54:57,13-03-2025 18:55:43,46.083s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:54:57,13-03-2025 18:55:10,13.066s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:55:10,13-03-2025 18:55:20,10.090s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:55:20,13-03-2025 18:55:26,5.856s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:55:26,13-03-2025 18:55:32,6.328s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:55:32,13-03-2025 18:55:33,0.522s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:55:33,13-03-2025 18:55:33,0.438s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:55:33,13-03-2025 18:55:34,0.856s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:55:34,13-03-2025 18:55:35,1.012s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:55:35,13-03-2025 18:55:36,0.540s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:55:36,13-03-2025 18:55:37,0.912s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:55:37,13-03-2025 18:55:43,6.431s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:55:43,13-03-2025 18:56:33,50.149s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:55:43,13-03-2025 18:55:56,12.877s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:55:56,13-03-2025 18:56:06,9.767s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:56:06,13-03-2025 18:56:16,10.361s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:56:16,13-03-2025 18:56:23,6.750s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:56:23,13-03-2025 18:56:23,0.496s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:56:23,13-03-2025 18:56:24,0.451s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:56:24,13-03-2025 18:56:25,0.810s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:56:25,13-03-2025 18:56:26,0.974s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:56:26,13-03-2025 18:56:26,0.521s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:56:26,13-03-2025 18:56:27,0.917s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:56:27,13-03-2025 18:56:33,6.205s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:56:33,13-03-2025 18:57:19,45.812s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:56:33,13-03-2025 18:56:46,13.172s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:56:46,13-03-2025 18:56:56,9.721s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:56:56,13-03-2025 18:57:02,5.923s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:57:02,13-03-2025 18:57:08,6.372s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:57:08,13-03-2025 18:57:09,0.511s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:57:09,13-03-2025 18:57:09,0.460s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:57:09,13-03-2025 18:57:10,0.863s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:57:10,13-03-2025 18:57:11,1.004s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:57:11,13-03-2025 18:57:12,0.516s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:57:12,13-03-2025 18:57:13,0.893s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:57:13,13-03-2025 18:57:19,6.352s,PASSED
+,,,,,,,
+Test Cases/Nasabah/Menu/Transfer/Pindah Dana/Transaksi Langsung/Pindah Dana One to One Single Auth,Chrome 134.0.6998.89,,,13-03-2025 18:57:19,13-03-2025 18:58:08,49.020s,PASSED
+"DATA BINDING - {""(Default) corpI..."":""destrioto2"",""(Default) passw..."":""Johndev2!"",""(Default) userI..."":""destrioto2"",""(Default) url"":""https://ibbisnis-uat.btn.co.id/login""}",,,,,,,
+"callTestCase(findTestCase(""Nasabah/Login/Login""), [""corpId"":corpId, ""userId"":userId, ""password"":password, ""url"":url], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:57:19,13-03-2025 18:57:33,13.619s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/btn_transfer""))",Chrome 134.0.6998.89,,,13-03-2025 18:57:33,13-03-2025 18:57:45,12.380s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/btn_pindahDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:57:45,13-03-2025 18:57:51,6.234s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekeningSumberDana""))",Chrome 134.0.6998.89,,,13-03-2025 18:57:51,13-03-2025 18:57:58,6.234s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/rdBtn_rekTujuan""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:57:58,13-03-2025 18:57:58,0.538s,PASSED
+"scrollToElement(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), 0)",Chrome 134.0.6998.89,,,13-03-2025 18:57:58,13-03-2025 18:57:59,0.441s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/fld_nominalTransaksi""), ""100000"")",Chrome 134.0.6998.89,,,13-03-2025 18:57:59,13-03-2025 18:57:59,0.814s,PASSED
+"setText(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/txtArea_berita""), ""test 1-1 transfer"")",Chrome 134.0.6998.89,,,13-03-2025 18:57:59,13-03-2025 18:58:00,0.994s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnya""))",Chrome 134.0.6998.89,,,13-03-2025 18:58:00,13-03-2025 18:58:01,0.516s,PASSED
+"click(findTestObject(""IBB Nasabah/Dashboard Menu/Transfer/Pindah Dana/Pindah Dana One to One/btn_selanjutnyaHalamanKonfirmasi""))",Chrome 134.0.6998.89,,,13-03-2025 18:58:01,13-03-2025 18:58:02,0.963s,PASSED
+"callTestCase(findTestCase(""Nasabah/Logout/Logout""), [:], STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,13-03-2025 18:58:02,13-03-2025 18:58:08,6.239s,PASSED

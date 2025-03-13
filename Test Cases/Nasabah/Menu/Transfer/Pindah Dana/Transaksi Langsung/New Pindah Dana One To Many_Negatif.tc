@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Pindah Dana One To Many_Negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1571b9d4-26aa-42d0-969b-7d2ea5e3ee19</testCaseGuid>
+</TestCaseEntity>

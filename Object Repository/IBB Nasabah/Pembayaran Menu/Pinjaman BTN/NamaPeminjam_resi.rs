@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NamaPeminjam_resi</name>
+   <tag></tag>
+   <elementGuidId>704e178f-3f0b-48ce-b72d-bc7f953b727e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[4]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>fdd680f1-6828-4689-93ab-321e1d01d127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style 400 css-tfmdtw</value>
+      <webElementGuid>48a8838b-a477-4b60-ad0c-145298b877a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>A. WAROHMAN</value>
+      <webElementGuid>16f3af66-a763-46bb-a015-2941cf4c1a23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-uwwqev&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1lpwhdb&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1l69iut&quot;]/div[@class=&quot;css-ceynxg&quot;]/div[@class=&quot;css-ge36bx&quot;]/div[@class=&quot;css-1r74kca&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1b2apei&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style 400 css-tfmdtw&quot;]</value>
+      <webElementGuid>c6767801-8abc-4d41-a4cc-abe3b4927505</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[4]/p[2]</value>
+      <webElementGuid>484bcde1-c115-4795-82eb-303f29f3e94d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Resi'])[1]/following::p[14]</value>
+      <webElementGuid>12b311fb-1bc2-4417-b699-07af8502e4ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resi ini adalah bukti transaksi yang sah'])[1]/preceding::p[13]</value>
+      <webElementGuid>3d632d12-3204-4347-a31c-48396b29259b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='A. WAROHMAN']/parent::*</value>
+      <webElementGuid>3f52b95b-e712-4f18-8358-b6dc4c0928bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/p[2]</value>
+      <webElementGuid>aac73a40-8388-4776-be8e-9d81f4af40ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'A. WAROHMAN' or . = 'A. WAROHMAN')]</value>
+      <webElementGuid>c64c997b-c9da-41d4-861c-73cb6b54b823</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

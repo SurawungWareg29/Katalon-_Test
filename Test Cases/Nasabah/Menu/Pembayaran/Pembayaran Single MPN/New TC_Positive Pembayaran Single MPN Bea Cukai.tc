@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New TC_Positive Pembayaran Single MPN Bea Cukai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5eaced29-1c2a-45e2-9992-e62a7928ba8f</testCaseGuid>
+</TestCaseEntity>

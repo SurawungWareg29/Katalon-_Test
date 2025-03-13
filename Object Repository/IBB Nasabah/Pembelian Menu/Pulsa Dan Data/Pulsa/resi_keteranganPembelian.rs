@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>resi_keteranganPembelian</name>
+   <tag></tag>
+   <elementGuidId>108f179f-f671-4326-b2c0-dc7eb024a57c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[5]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>df0e9f45-a55b-4e69-9e97-ab91dec3104c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style 400 css-tfmdtw</value>
+      <webElementGuid>8d21bd93-7d4a-4b0c-95c8-c3c212ef27d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Smartfren Pulsa Rp 25.000,00</value>
+      <webElementGuid>9956f0f3-7e50-4ea8-86cc-f4ac79b81997</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1lpwhdb&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1l69iut&quot;]/div[@class=&quot;css-ceynxg&quot;]/div[@class=&quot;css-ge36bx&quot;]/div[@class=&quot;css-1r74kca&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1b2apei&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style 400 css-tfmdtw&quot;]</value>
+      <webElementGuid>3db8f244-3817-48fb-82ca-7cf61d8f1d2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[5]/p[2]</value>
+      <webElementGuid>f40b9811-8aec-4030-837e-cc3501420c00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Resi'])[1]/following::p[16]</value>
+      <webElementGuid>4f149d4d-34c0-4ff1-9504-d1a04ad7f2c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resi ini adalah bukti transaksi yang sah'])[1]/preceding::p[11]</value>
+      <webElementGuid>3dcd9324-d797-4714-9062-c69308fed3cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Smartfren Pulsa Rp 25.000,00']/parent::*</value>
+      <webElementGuid>d8e770db-3642-4957-a87f-73c6c13d5ed2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/p[2]</value>
+      <webElementGuid>ea8d1a28-1e62-4692-ab4f-fd058eb1aecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Smartfren Pulsa Rp 25.000,00' or . = 'Smartfren Pulsa Rp 25.000,00')]</value>
+      <webElementGuid>876890be-3d43-4644-9fa4-5febc76c2916</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

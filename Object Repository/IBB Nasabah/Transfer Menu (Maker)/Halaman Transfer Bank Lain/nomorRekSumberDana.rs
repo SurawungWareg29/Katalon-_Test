@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nomorRekSumberDana</name>
+   <tag></tag>
+   <elementGuidId>bf1a9a87-e23d-4018-8593-460bdc4d78c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/main/div/div/div/form/div/div[2]/div[2]/div[1]/div[1]/div/div/div[1]/div/div[1]/div/div[2]/p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1d6d58a2-e4fd-4543-ab41-828a5583dcfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style #374062 400 css-ut7d44</value>
+      <webElementGuid>b8fad5e4-c766-4c5e-aa9e-45e5b3a07f60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1401 3000 2055 1</value>
+      <webElementGuid>fc814fe4-b307-4ba5-bb5e-0db7bb6015f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-uwwqev&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/form[1]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-ojb6vh&quot;]/div[@class=&quot;css-3iztaj&quot;]/div[@class=&quot;css-1xhj18k&quot;]/div[@class=&quot;css-1y0ylch&quot;]/div[@class=&quot;css-uwwqev&quot;]/div[@class=&quot;scrollbar css-14r54sh&quot;]/div[@class=&quot;css-o8d3o2&quot;]/div[@class=&quot;MuiBox-root css-roe9hw&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-12otwcd&quot;]/div[@class=&quot;MuiCardContent-root css-11qx4pp&quot;]/div[2]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style #374062 400 css-ut7d44&quot;]</value>
+      <webElementGuid>f4846a4a-4ad0-4203-84c2-d963829690bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/form/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/p</value>
+      <webElementGuid>7111c085-c762-4747-82a3-4e637b1dc291</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Many to Many'])[1]/following::p[3]</value>
+      <webElementGuid>9a021391-46c6-4cf7-8055-e13df3fe04d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Many to One'])[1]/following::p[3]</value>
+      <webElementGuid>da0f30c6-f8a0-44ee-98c6-cdffe45da2ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Baru'])[1]/preceding::p[24]</value>
+      <webElementGuid>0342080f-f2e7-4404-ac6e-7bbac7a160a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terdaftar'])[1]/preceding::p[24]</value>
+      <webElementGuid>75407d06-9302-4d9a-bbf3-0779dbfd8608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1401 3000 2055 1']/parent::*</value>
+      <webElementGuid>c22ee270-05f6-4cc1-bb09-1a2809d3514c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div[2]/p</value>
+      <webElementGuid>3335fa86-c5ca-4458-8289-bc04ff3a8e11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1401 3000 2055 1' or . = '1401 3000 2055 1')]</value>
+      <webElementGuid>1e56faae-4517-433c-a80a-0a6c71aec243</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

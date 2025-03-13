@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Telusuri</name>
+   <tag></tag>
+   <elementGuidId>a9fb9abc-0af6-462d-a82b-1685ff0ca297</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiInputAdornment-root.MuiInputAdornment-positionEnd.MuiInputAdornment-outlined.MuiInputAdornment-sizeMedium.inputAdorment.css-p8i28w</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tabpanel-1']/div[2]/div/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8a418d60-b749-412d-987b-ece5d2f135fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium inputAdorment css-p8i28w</value>
+      <webElementGuid>abf96813-0fff-4242-9aa1-d1ce5f1ee0d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Telusuri</value>
+      <webElementGuid>465a98b5-a30d-4c5c-b37d-2bf690aca9f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabpanel-1&quot;)/div[@class=&quot;css-g46cpp&quot;]/div[@class=&quot;css-uwwqev&quot;]/div[@class=&quot;css-j7qwjs&quot;]/div[@class=&quot;MuiButtonGroup-root MuiButtonGroup-outlined css-1mmmdan&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root a-input-text sm browse css-1bp9qjy&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-1jegouz&quot;]/div[@class=&quot;MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium inputAdorment css-p8i28w&quot;]</value>
+      <webElementGuid>53f51601-456e-4f07-aae3-bd72d64b9785</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabpanel-1']/div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>4047b68c-2e2d-4ecd-bf49-6c68200f7a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Format Dokumen'])[1]/following::div[4]</value>
+      <webElementGuid>899f0353-ce0a-46c0-94c6-12a1ddd7afb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat List Pembayaran Gaji'])[1]/following::div[9]</value>
+      <webElementGuid>f1348acd-c98b-472e-978f-ab24294b0faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::div[1]</value>
+      <webElementGuid>4dd3cf3e-f506-47c9-8ce1-3e884ce1afb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='●'])[1]/preceding::div[1]</value>
+      <webElementGuid>dd687427-ba1a-4dcd-b7eb-43b1d6a68536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>22ea4b90-8e18-4ed5-9142-6fe0c4f81117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Telusuri' or . = 'Telusuri')]</value>
+      <webElementGuid>73db4ec4-34bd-49e0-b342-987efd8aad4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

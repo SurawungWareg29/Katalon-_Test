@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New BTN Transfer Many To Many Negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a0507c8-2f6f-48ff-8c2b-0c7496da2e38</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New TC_Reprint Advice Non Pajak Negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d85c7a3d-bbad-4508-9c25-f0837f93523b</testCaseGuid>
+</TestCaseEntity>

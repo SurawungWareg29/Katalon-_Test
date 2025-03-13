@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_ID Perusahaan ID Pengguna Kata Sandi  _536fb3</name>
+   <tag></tag>
+   <elementGuidId>7f89ba0c-1705-412f-a7e5-7c9c00ea4a1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>26533916-2248-423a-b9b0-50d7648a82d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ID Perusahaan :​ID Pengguna :​Kata Sandi :​ Masuk Lupa Kata Sandi?Belum punya akun? Daftar</value>
+      <webElementGuid>35a96eba-2251-4738-a844-b10ca27f9ec3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;css-ietzmr&quot;]/div[@class=&quot;css-y09veg&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-18od73n&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-sm-8 MuiGrid-grid-md-4.5 css-17eop0f&quot;]/div[@class=&quot;css-j7qwjs&quot;]/div[@class=&quot;css-yqs4zs&quot;]/div[@class=&quot;css-q5371m&quot;]/div[@class=&quot;css-uwwqev&quot;]/form[1]</value>
+      <webElementGuid>101b829a-13ae-45df-bc60-52e314928260</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/form</value>
+      <webElementGuid>2a5ad5d2-6e71-4d18-8956-5ddaa71ab97d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>7381aad8-1aaf-41ea-a813-cfaa0bc2a841</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'ID Perusahaan :​ID Pengguna :​Kata Sandi :​ Masuk Lupa Kata Sandi?Belum punya akun? Daftar' or . = 'ID Perusahaan :​ID Pengguna :​Kata Sandi :​ Masuk Lupa Kata Sandi?Belum punya akun? Daftar')]</value>
+      <webElementGuid>15c8549d-e467-4fd5-af0a-d0b9dcf2f9af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

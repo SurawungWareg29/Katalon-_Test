@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Halaman Inquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56e6ae39-b56d-46ed-8009-24c832798adc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee024b29-ec9b-48f4-a889-3baa74b15110</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05995cff-2ead-4ed0-8bdc-c572d6926621</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a4e45bc-24d6-49a2-ad50-93e5c1d4ab5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'multijaya'</defaultValue>
+      <description></description>
+      <id>ee024b29-ec9b-48f4-a889-3baa74b15110</id>
+      <masked>false</masked>
+      <name>corpid</name>
+   </variable>
+   <variable>
+      <defaultValue>'maker'</defaultValue>
+      <description></description>
+      <id>05995cff-2ead-4ed0-8bdc-c572d6926621</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Johndev2@'</defaultValue>
+      <description></description>
+      <id>8a4e45bc-24d6-49a2-ad50-93e5c1d4ab5e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

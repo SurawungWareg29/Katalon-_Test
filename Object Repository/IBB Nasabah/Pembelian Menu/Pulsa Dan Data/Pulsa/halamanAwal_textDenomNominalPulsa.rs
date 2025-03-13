@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>halamanAwal_textDenomNominalPulsa</name>
+   <tag></tag>
+   <elementGuidId>8cad37bc-befb-4e66-8a80-ec4602bc5657</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/main/div/div/div/form/div[3]/div[2]/div[2]/div/div[3]/button[1]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.MuiTypography-root.MuiTypography-body2.a-text-style.400.css-hxpgw7</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1a5b658b-3c73-4be7-a952-01b4d67c0037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style 400 css-hxpgw7</value>
+      <webElementGuid>cf0cddba-dfdc-4c14-9331-49484835bc87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rp 25.000</value>
+      <webElementGuid>7f4bad0e-6d9d-4424-bdee-b921942338cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/form[1]/div[@class=&quot;css-wx73b6&quot;]/div[@class=&quot;css-mie8ys&quot;]/div[@id=&quot;tabpanel-0&quot;]/div[@class=&quot;css-16g0g3b&quot;]/div[@class=&quot;scrollbar css-4o6r18&quot;]/button[@class=&quot;MuiButtonBase-root MuiCardActionArea-root css-1itkyb7&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style 400 css-hxpgw7&quot;]</value>
+      <webElementGuid>8e8898ae-0161-4968-9488-d437e14575b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabpanel-0']/div/div[3]/button/p[2]</value>
+      <webElementGuid>4c8bc726-b0cd-4c54-96ca-c31d11657cef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/following::p[3]</value>
+      <webElementGuid>c24dbbf2-737f-4c95-9901-896168d0c9db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::p[6]</value>
+      <webElementGuid>173ac769-8a1f-4819-a2df-0a24b121ef6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[3]/preceding::p[9]</value>
+      <webElementGuid>e74c0343-7b4e-4550-8747-9e7512a29830</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rp 25.000']/parent::*</value>
+      <webElementGuid>e9c52522-bc07-47cf-a0b8-adc2070af366</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/p[2]</value>
+      <webElementGuid>ca889c98-3aed-4cd5-a319-92a2490919a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Rp 25.000' or . = 'Rp 25.000')]</value>
+      <webElementGuid>5072f452-81d1-426f-b434-c3f30f9727cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

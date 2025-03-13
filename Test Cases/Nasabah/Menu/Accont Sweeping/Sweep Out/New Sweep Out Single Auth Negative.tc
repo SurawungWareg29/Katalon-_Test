@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Sweep Out Single Auth Negative</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c83a5d93-1ecb-495a-a226-49e4421374b8</testCaseGuid>
+</TestCaseEntity>

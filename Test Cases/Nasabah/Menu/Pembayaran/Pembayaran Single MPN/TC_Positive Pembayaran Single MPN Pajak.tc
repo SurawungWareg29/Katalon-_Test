@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Positive Pembayaran Single MPN Pajak</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>545e3afb-9be9-42e7-b336-26eb5d081207</testCaseGuid>
+</TestCaseEntity>

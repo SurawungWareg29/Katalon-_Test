@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reprint</description>
+   <name>TC_Reprint Advice Bea Cukai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dce64855-5de8-4b5b-a0df-50a1b87af7b1</testCaseGuid>
+</TestCaseEntity>

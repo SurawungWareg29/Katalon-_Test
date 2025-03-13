@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Negative_Pembayaran Pinjaman</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>177a4030-d92f-4b5a-891f-c79f824003cb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Unduh Format Dokumen</name>
+   <tag></tag>
+   <elementGuidId>d4dd9557-b89e-4214-a3f8-d2abf64bef29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1vd84sn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tabpanel-0']/div/div/div/div/button/span/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2f564d0f-f0a6-4cbe-b4bf-4fafcbcd6db0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1vd84sn</value>
+      <webElementGuid>a7050f14-86b4-4bdb-b1f1-803661ef0e7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unduh Format Dokumen</value>
+      <webElementGuid>a02b725f-e3ed-482b-97bd-e0f661f5eb3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabpanel-0&quot;)/div[@class=&quot;css-j7qwjs&quot;]/div[@class=&quot;css-uwwqev&quot;]/div[@class=&quot;css-j7qwjs&quot;]/div[@class=&quot;m-action-button css-8jts0n&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation a-button contained x-sm css-1ck8mv3&quot;]/span[@class=&quot;MuiTypography-root MuiTypography-text css-1uk1gs8&quot;]/div[@class=&quot;css-1vd84sn&quot;]</value>
+      <webElementGuid>259cac9a-9b4c-4348-b827-aae94973c14e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabpanel-0']/div/div/div/div/button/span/div</value>
+      <webElementGuid>fc92b6c7-96f3-445d-ab24-112997056b2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grup Pembayaran Gaji'])[1]/following::div[6]</value>
+      <webElementGuid>ca7cdd31-af27-4377-9ce4-b60507c49972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengecekan Rekening'])[1]/following::div[6]</value>
+      <webElementGuid>3fbfcd85-1374-48db-96db-df64abbe5e9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::div[2]</value>
+      <webElementGuid>0e145438-5002-4384-aba0-06c9e87e60ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='●'])[1]/preceding::div[5]</value>
+      <webElementGuid>5a3e8b53-ecc1-4b8e-97ef-9482b8c32f38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Unduh Format Dokumen']/parent::*</value>
+      <webElementGuid>24b2156a-eb0c-40cf-b563-6b24c0265dc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span/div</value>
+      <webElementGuid>43524759-69c5-4f16-b73d-7dbb72fc1db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Unduh Format Dokumen' or . = 'Unduh Format Dokumen')]</value>
+      <webElementGuid>6cc57d1a-85fb-4145-83ba-a1c39d1c955b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New TC_Positive Pembayaran Single MPN Non Pajak</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2aae8ec-feae-47b7-ae05-67d022339652</testCaseGuid>
+</TestCaseEntity>
