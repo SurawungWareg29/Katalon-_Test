@@ -786,4 +786,35 @@
          <variableId>fd2c504c-1fbc-48e7-8232-649ef8d07bd7</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4cffca1a-eb26-4fd4-97b6-651f4d683ba0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Nasabah/Login/Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fc658d40-88f2-46eb-aace-b320cfec239f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ccc97842-f846-4b97-a8b6-d5ffd2019b22</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7baba24b-dd55-442b-a931-7cbfc860082d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fd2c504c-1fbc-48e7-8232-649ef8d07bd7</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
